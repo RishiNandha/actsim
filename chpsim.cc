@@ -3040,7 +3040,7 @@ BigInt ChpSim::exprEval (Expr *e)
     break;
 
   case E_CHP_VARSTRUCT:
-    printf ("ERROR: Evaluating a structure as an expression; skipping and using value 0.");
+    printf ("ERROR: Evaluating a structure as an expression; skipping and using value 0.\n");
     l.setWidth (1);
     l.setVal (0, 0);
     break;
